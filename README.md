@@ -60,6 +60,4 @@ To run application take the following steps:
 
 ---
 
-### Screenshot
-:movie_camera:	
-[Demo Video](https://watch.screencastify.com/v/ZVgxAUS18DHBBk2P4PEW)
+### Screenshot 
