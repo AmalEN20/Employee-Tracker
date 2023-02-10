@@ -59,4 +59,5 @@ To run application take the following steps:
 
 ---
 
-### Screenshot 
+### Video
+https://user-images.githubusercontent.com/116880367/218034528-f012dc56-0abd-4e63-a68f-66c728e860a1.mov
