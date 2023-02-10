@@ -21,19 +21,19 @@ VALUES
 
 INSERT INTO employee(first_name, last_name, role_id, manager_id)
 VALUES
-    ('Viserys', 'Targaryan', 2,2),
+    ('Amal', 'Eng', 2,2),
     ('Robb', 'Stark', 5, 5),
-    ('Bran', 'Stark', 1, 1),
+    ('Shane', 'Stark', 1, 1),
     ('Ned', 'Stark', 1, 2),
     ('Joffrey', 'Baratheon', 3,2),
     ('Tommen', 'Baratheon', 1, 5),
     ('Khal', 'Drogo', 4, 1),
     ('Cersei', 'Lannister', 3, 2),
     ('Jamie', 'Lanister', 2,5),
-    ('Jon', 'Snow', 5, 1),
+    ('JAck', 'Snow', 5, 1),
     ('Grey', 'Worm', 3, 1),
     ('Sansa', 'Stark', 4, 4),
-    ('Davos', 'Seaworth', 4,null),
+    ('Avery', 'Seaworth', 4,null),
     ('Margaery', 'Tyrell', 2, null),
-    ('Tormund', 'Giantsbane', 3, null),
+    ('Jordan', 'Giantsbane', 3, null),
     ('Jorah', 'Mormont', 5, null)
