@@ -6,15 +6,6 @@ const { CallTracker } = require('assert');
 
 require('dotenv').config()
 
-//connects to the database
-
-const connection = mysql.createConnection(
-    {
-        host: 'localhost',
-        user: 'root',
-        password: 'W@lker!',
-        database: 'tracker_db'
-    });
 
 // connects to the mysql database
 
