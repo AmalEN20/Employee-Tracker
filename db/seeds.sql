@@ -1,39 +1,25 @@
 INSERT INTO department (name)
-VALUES
-    ('IT'),
-    ('Sales'),
-    ('Engineering'),
-    ('Customer Service'),
-    ('Data Science');
+VALUES ('Engineering'),
+       ('Finance'),
+       ('Legal'),
+       ('Sales');
 
-INSERT INTO roles (title, salary, department_id)
-VALUES
-    ('Cyber Secerity', 90000, 1),
-    ('IT Specialist', 70000, 1),
-    ('Customer Sales Solutions', 120000, 2),
-    ('Sales Rep', 70000, 2),
-    ('Data Engineer', 100000, 3),
-    ('Software Engineer', 120000, 3),
-    ('Call Center', 65000, 4),
-    ('Customer Service', 55000, 4),
-    ('Data Scientist', 100000, 5),
-    ('Data Engineer', 100000, 5);
+INSERT INTO role (title, salary, department_id)
+VALUES ('Sales Lead', 100000, 4),
+       ('Salesperson', 80000, 4),
+       ('Lead Engineer', 150000, 1),
+       ('Software Engineer', 120000, 1),
+       ('Account Manager', 160000, 2),
+       ('Accountant', 125000, 2),
+       ('Legal Team Lead', 250000, 3),
+       ('Lawyer', 190000, 3);
 
-INSERT INTO employee(first_name, last_name, role_id, manager_id)
-VALUES
-    ('Amal', 'Eng', 2,2),
-    ('Robb', 'Stark', 5, 5),
-    ('Shane', 'Stark', 1, 1),
-    ('Ned', 'Stark', 1, 2),
-    ('Joffrey', 'Baratheon', 3,2),
-    ('Tommen', 'Baratheon', 1, 5),
-    ('Khal', 'Drogo', 4, 1),
-    ('Cersei', 'Lannister', 3, 2),
-    ('Jamie', 'Lanister', 2,5),
-    ('JAck', 'Snow', 5, 1),
-    ('Grey', 'Worm', 3, 1),
-    ('Sansa', 'Stark', 4, 4),
-    ('Avery', 'Seaworth', 4,null),
-    ('Margaery', 'Tyrell', 2, null),
-    ('Jordan', 'Giantsbane', 3, null),
-    ('Jorah', 'Mormont', 5, null)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ('John', 'Doe', 1, NULL),
+       ('Mike', 'Chan', 2, 1),
+       ('Ashley', 'Rodriguez', 3, NULL),
+       ('Kevin', 'Tupik', 4, 3),
+       ('Kunal', 'Singh', 5, NULL),
+       ('Malia', 'Brown', 6, 5),
+       ('Sarah', 'Lourd', 7, NULL),
+       ('Tom', 'Allen', 8, 7);
